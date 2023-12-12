@@ -1,3 +1,4 @@
+import { NavBar } from "@/components/NavBar"
 import { cn } from "@/lib/utils"
 import "@/styles/globals.scss"
 import type { Metadata } from "next"
@@ -23,8 +24,14 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={cn(inter.className, bricolage_Grotesque.variable)}>
-        {children}
+      <body
+        className={cn(inter.className, bricolage_Grotesque.variable)}
+        style={{
+          backgroundColor: "#1B0735"
+        }}
+      >
+        <NavBar />
+        <main>{children}</main>
       </body>
     </html>
   )
