@@ -69,8 +69,9 @@ const YourBuddySection = () => {
             />
           </div>
         </div>
+
         <div className="grid md:grid-cols-2 grid-cols-1 gap-6">
-          <div className="bg-[#1C1727] rounded-[32px] md:pt-[45px] pt-[54px] md:pl-[44px] pl-[27px] pr-[24px] pb-[35px]">
+          <div className="bg-[#1C1727] rounded-[32px] md:pt-[45px] pt-[54px] md:pl-[44px] pl-[20px] pr-[24px] pb-[35px]">
             <div className="flex items-center space-x-1 md:pl-0 pl-4">
               <StarSvg />
               <h4 className="text-[12px] text-[#966BFF] font-medium tex-[12px]">
@@ -87,6 +88,7 @@ const YourBuddySection = () => {
                 Pagebot stand out.
               </p>
             </span>
+
             <div className="flex items-end justify-end md:pt-[105px] pt-[27px]">
               <div className="relative bg-[#2A203F] pt-[14px] md:px-[17px] px-[13px] rounded-[18px] border-[0.5px] w-[390px] border-[#291F38] flex md:items-start items-end">
                 <div className="space-y-2 md:pb-0 pb-4">
@@ -102,18 +104,22 @@ const YourBuddySection = () => {
                     See the sources that provide context to the conversation.
                   </p>
                 </div>
+
                 <div>
                   <BotMessagesSvg />
                 </div>
+
                 <div
-                  className="absolute -top-4 md:left-36 left-28 translate-x-1.2 -rotate-12 flex items-center justify-center space-x-px w-[80px] h-[30px] rounded-full"
+                  className="absolute -top-4 md:left-36 left-28 translate-x-1.2 -rotate-12 flex items-center justify-center space-x-px md:w-[80px] w-[67px] md:h-[30px] h-[25px] rounded-full"
                   style={{
                     background: "var(--white-blue-400, #33B4FC)",
                     boxShadow: "0px 4px 4px 0px rgba(255, 255, 255, 0.25) inset"
                   }}
                 >
                   <FolderSvg />
-                  <p className="text-[14px] font-medium text-white">Folder</p>
+                  <p className="md:text-[14px] text-[11px] font-medium text-white">
+                    Folder
+                  </p>
                 </div>
               </div>
             </div>
