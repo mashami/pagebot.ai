@@ -5,10 +5,10 @@ import { BackgroundColor, StarsBackground } from "./SVGs/SVGs"
 const Background = () => {
   return (
     <div className="relative">
-      <span className="absolute">
+      <span className="absolute w-screenoverflow-hidden">
         <BackgroundColor />
       </span>
-      <span className="absolute top-16">
+      <span className="absolute top-16 w-screen overflow-hidden">
         <StarsBackground />
       </span>
     </div>

@@ -3,15 +3,15 @@
 @tailwind utilities;
 
 h1 {
-  font-size: 64px;
+  @apply md:text-[64px] text-[40px];
 }
 
 h2 {
-  font-size: 40px;
+  @apply md:text-[40px] text-[22px];
 }
 
 h3 {
-  font-size: 20px;
+  @apply md:text-[20px] text-[16px];
 }
 
 p {

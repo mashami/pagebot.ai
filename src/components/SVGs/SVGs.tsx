@@ -2584,9 +2584,9 @@ export const BotChatSvg = () => {
 export const BotMessagesSvg = () => {
   return (
     <svg
-      width={151}
       height={88}
       viewBox="0 0 151 88"
+      className="md:w-[151px] w-[126px]"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
     >

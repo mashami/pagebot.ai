@@ -15,14 +15,12 @@ export default function Home() {
         background: "url(/Vector.png)"
       }}
     >
-      <div className=" absolute -top-12 -z-10">
+      <div className=" absolute -top-12 -z-10 ">
         <Background />
       </div>
-
-      <div className="container flex mx-auto justify-center pt-24 z-30">
+      <div className="md:container px-4 flex mx-auto justify-center md:pt-24 pt-0 z-30 overflow-hidden">
         <BotSvg />
       </div>
-
       {/* <div className="z-0">
         <img
           src="/Vector.png"
@@ -31,25 +29,25 @@ export default function Home() {
           alt="background"
         />
       </div> */}
-      <div className="text-center pt-10 w-[728px] mx-auto space-y-4">
+
+      <div className="text-center md:pt-10 md:w-[728px] w-full mx-auto space-y-4 md:px-0 px-6">
         <h1 className="break-words text-white font-bricolage_Grotesque font-semibold leading-tight">
           Your buddy on any page for insight
         </h1>
-        <h3 className="text-[#8B78BA]">
+        <h3 className="text-[#8B78BA] break-words px-2">
           Elevate your research endeavors with the support of this intelligent
           ally, always at your service to enhance your understanding and fuel
           your intellectual curiosity.
         </h3>
         <ButtonStart />
       </div>
-
-      <div className="flex items-center justify-center text-center mx-auto space-x-1 pt-[303px]">
+      <div className="flex items-center justify-center text-center mx-auto space-x-1 md:pt-[296px] pt-[190px]">
         <StarSvg />
         <h4 className="text-[12px] text-white font-medium">
           Design to meet your specific needs
         </h4>
       </div>
-      <div className="space-y-[71px] pb-[71px]">
+      <div className="space-y-[71px] pb-[71px] md:px-0 px-6">
         <h2 className="text-center text-white font-bricolage_Grotesque font-semibold">
           Your buddy on any page for insight
         </h2>
