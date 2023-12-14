@@ -10,10 +10,10 @@ import { YourBuddySection } from "@/components/YourBuddySection"
 export default function Home() {
   return (
     <div
-      className="relative w-full h-screen z-50"
-      style={{
-        background: "url(/Vector.png)"
-      }}
+      className="relative w-full h-screen "
+      // style={{
+      //   background: "url(/Vector.png)"
+      // }}
     >
       <div className=" absolute -top-12 -z-10 ">
         <Background />
@@ -21,14 +21,14 @@ export default function Home() {
       <div className="md:container px-4 flex mx-auto justify-center md:pt-24 pt-0 z-30 overflow-hidden">
         <BotSvg />
       </div>
-      {/* <div className="z-0">
+      <div className="absolute top-12 right-10 left-10 -z-20">
         <img
           src="/Vector.png"
           className="w-full h-full"
           style={{ objectFit: "cover" }}
           alt="background"
         />
-      </div> */}
+      </div>
 
       <div className="text-center md:pt-10 md:w-[728px] w-full mx-auto space-y-4 md:px-0 px-6">
         <h1 className="break-words text-white font-bricolage_Grotesque font-semibold leading-tight">
