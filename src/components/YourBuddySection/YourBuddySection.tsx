@@ -21,8 +21,11 @@ const YourBuddySection = () => {
     <div className="md:container px-0">
       <div className="md:space-y-[19px] space-y-6">
         <div className="bg-[#1C1727] rounded-[32px] grid md:grid-cols-2 grid-cols-1  md:pt-[77px] pt-[70px] md:pr-[104px] pr-[24px] md:pl-[75px] pl-[24px] pb-[63px] md:gap-0 gap-[56px]">
-          <div className="md:gap-[65px] gap-[56px] flex md:flex-col flex-col-reverse">
-            <BotChatSvg />
+          <div className="md:gap-[65px] gap-[56px] flex md:flex-col flex-col-reverse ">
+            <div className="flex items-center md:justify-start justify-center w-full mx-auto ">
+              <BotChatSvg />
+            </div>
+
             <div className="space-y-8">
               <span className="gap-2 max-w-[324px] flex flex-col">
                 <h3 className="text-[#C7C7C7] font-bricolage_Grotesque font-medium break-words">
