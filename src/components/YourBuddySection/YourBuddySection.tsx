@@ -36,9 +36,13 @@ const YourBuddySection = () => {
                   makes Pagebot stand out.
                 </p>
               </span>
-              <ButtonStart />
+              <ButtonStart
+                backgroundColor="#312444"
+                boxShadow="4px 4px 5px 0px #3D2F5F inset"
+              />
             </div>
           </div>
+
           <div className="grid md:grid-cols-2 grid-cols-1 gap-[12px]">
             <Card
               title="Chat"
@@ -74,7 +78,7 @@ const YourBuddySection = () => {
         </div>
 
         <div className="grid md:grid-cols-2 grid-cols-1 gap-6">
-          <div className="bg-[#1C1727] rounded-[32px] md:pt-[45px] pt-[54px] md:pl-[44px] pl-[20px] pr-[24px] pb-[35px]">
+          <div className="bg-[#1C1727] rounded-l-[32px] md:rounded-r-[0px] rounded-r-[32px] md:pt-[45px] pt-[54px] md:pl-[44px] pl-[20px] pr-[24px] pb-[35px]">
             <div className="flex items-center space-x-1 md:pl-0 pl-4">
               <StarSvg />
               <h4 className="text-[12px] text-[#966BFF] font-medium tex-[12px]">
@@ -93,7 +97,7 @@ const YourBuddySection = () => {
             </span>
 
             <div className="flex items-end justify-end md:pt-[105px] pt-[27px]">
-              <div className="relative bg-[#2A203F] pt-[14px] md:px-[17px] px-[13px] rounded-[18px] border-[0.5px] w-[390px] border-[#291F38] flex md:items-start items-end">
+              <div className="relative bg-[#2A203F] md:pt-[14px] pt-px md:px-[17px] px-[17px] rounded-[18px] border-[0.5px] md:w-[390px] w-full border-[#291F38] flex md:items-start items-end space-x-2">
                 <div className="space-y-2 md:pb-0 pb-4">
                   <p className="font-medium md:leading-[18px] leading-[15px] text-white md:text-[16px] text-[13px]">
                     Context Sources
@@ -127,7 +131,7 @@ const YourBuddySection = () => {
               </div>
             </div>
           </div>
-          <div className="flex justify-end items-end bg-[#1C1727] rounded-r-[32px] md:px-7 px-6 md:pt-0 pt-[67px]">
+          <div className="flex justify-end items-end bg-[#1C1727] rounded-r-[32px] md:rounded-l-[0px] rounded-l-[32px] md:px-7 px-6 md:pt-0 pt-[67px]">
             <div className="space-y-2">
               <div className="px-5 py-[10px] bg-[#211833] space-y-1">
                 <span className="flex items-center space-x-4">

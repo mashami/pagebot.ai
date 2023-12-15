@@ -21,7 +21,7 @@ const Card = ({ title, icon, description }: CardProps) => {
         <p className="text-[#C7C7C7] text-[15px] font-medium">{title}</p>
         <Svg svg={icon} />
       </div>
-      <h4 className="text-[#C7C7C7] text-[12px] font-normal leading-[18px]">
+      <h4 className="text-[#C7C7C7] text-[12px] leading-[18px] md:pr-0 pr-20">
         {description}
       </h4>
     </div>
