@@ -1,13 +1,22 @@
 "use client"
 
 import { Button } from "../ui/button"
-
-const ButtonStart = () => {
+interface ButtonStartProps {
+  boxShadow?: string
+  backgroundColor?: string
+  onClick?: () => void
+}
+const ButtonStart = ({
+  boxShadow = "4px 4px 5px 0px #8F60FF inset",
+  backgroundColor = "#5C3BA1",
+  onClick
+}: ButtonStartProps) => {
   return (
     <Button
       text="Get Started"
       iconPosition="right"
-      className="h-0 py-[19px] text-[14px] bg-[#5C3BA1] hover:bg-[#5C3BA1]/75  font-medium leading-5 text-white rounded-[64px] cursor-pointer"
+      className="h-0 py-[19px] text-[14px] hover:bg-[#5C3BA1]/75  font-medium leading-5 text-white rounded-[64px] cursor-pointer"
+      onClick={onClick}
       icon={
         <svg
           width={25}
@@ -23,7 +32,8 @@ const ButtonStart = () => {
         </svg>
       }
       style={{
-        boxShadow: "4px 4px 5px 0px #8F60FF inset"
+        boxShadow: boxShadow,
+        background: backgroundColor
       }}
     />
   )
