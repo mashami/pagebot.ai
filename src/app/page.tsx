@@ -30,7 +30,7 @@ export default function Home() {
         />
       </div>
 
-      <div className="text-center md:pt-10 md:w-[728px] w-full mx-auto space-y-4 md:px-0 px-6">
+      <div className="text-center md:pt-10 md:w-[728px] w-full mx-auto space-y-4 md:px-0 px-8">
         <h1 className="break-words text-white font-bricolage_Grotesque font-semibold leading-tight">
           Your buddy on any page for insight
         </h1>
