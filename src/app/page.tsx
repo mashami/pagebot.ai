@@ -21,7 +21,7 @@ export default function Home() {
       <div className="md:container px-4 flex mx-auto justify-center md:pt-24 pt-0 z-30 overflow-hidden">
         <BotSvg />
       </div>
-      <div className="absolute -top-24 right-10 left-10 -z-20">
+      <div className="absolute md:-top-24 -top-2 right-10 left-10 -z-20">
         <img
           src="/Vector.png"
           className="w-full h-full"
