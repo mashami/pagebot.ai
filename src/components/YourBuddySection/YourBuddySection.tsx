@@ -144,10 +144,8 @@ const YourBuddySection = () => {
                 <div className="pl-[40px]">
                   <div className="p-[12px] bg-[#1C1727] rounded-md">
                     <h4 className="text-[#BBB] break-words font-medium leading-[21px]">
-                      {" "}
-                      In life's brief dance, we find our way, A journey bright,
-                      a brand-new day. With every sunrise, hope takes flight,
-                      Embrace the gift of life's pure light.
+                      Tell me a poem about life, make it reflective and
+                      memorable while keeping it engaging.
                     </h4>
                   </div>
                 </div>
