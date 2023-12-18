@@ -1,8 +1,15 @@
-export const BackgroundColor = () => {
+import { MainIconProps } from "../Icons/icon.type"
+
+export const BackgroundColor = ({
+  className,
+  width,
+  height
+}: MainIconProps) => {
   return (
     <svg
-      width={1440}
-      height={909}
+      // width={1440}
+      // height={909}
+      className={className}
       viewBox="0 0 1440 909"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
@@ -43,8 +50,9 @@ export const BackgroundColor = () => {
 export const StarsBackground = () => {
   return (
     <svg
-      width={1309}
-      height={523}
+      // width={1309}
+      // height={523}
+      className="w-full"
       viewBox="0 0 1309 523"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"

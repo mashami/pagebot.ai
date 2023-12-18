@@ -27,7 +27,7 @@ export default function RootLayout({
       <body
         className={cn(inter.className, bricolage_Grotesque.variable)}
         style={{
-          backgroundColor: "#1B0735"
+          backgroundColor: "#131217"
         }}
       >
         <NavBar />

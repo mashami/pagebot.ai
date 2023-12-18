@@ -47,32 +47,32 @@ const YourBuddySection = () => {
             <Card
               title="Chat"
               icon={<ChatSvg />}
-              description="General (default): Applies most rules and conventions with medium strictness."
+              description="Engage in stimulating conversations, gain insight, do research, explore different topics and learn. "
             />
             <Card
               title="Insight"
               icon={<InsightSvg />}
-              description="General (default): Applies most rules and conventions with medium strictness."
+              description="We recommend questions based on the current discussion, and show you areas that might interest you."
             />
             <Card
               title="Plugin"
               icon={<PluginSvg />}
-              description="General (default): Applies most rules and conventions with medium strictness."
+              description="The plugin is available, install and keep teh work running without breaking a sweat."
             />
             <Card
               title="Web"
               icon={<WebSvg />}
-              description="General (default): Applies most rules and conventions with medium strictness."
+              description="We are available on your prominent browsers enabling you to continue where you left off."
             />
             <Card
               title="Document upload"
               icon={<DocSvg />}
-              description="General (default): Applies most rules and conventions with medium strictness."
+              description="Upload your documents and add more context for a richer conversation and quality output."
             />
             <Card
               title="Set Tone"
               icon={<ToneSvg />}
-              description="General (default): Applies most rules and conventions with medium strictness."
+              description="Set the tone, define how you want the response to be perceived, tailor it according to your desired need."
             />
           </div>
         </div>
@@ -86,9 +86,10 @@ const YourBuddySection = () => {
               </h4>
             </div>
 
-            <span className="gap-2 max-w-[324px] flex flex-col pt-4 md:pl-0 pl-4">
+            <span className="gap-2 max-w-[320px] flex flex-col pt-4 md:pl-0 pl-4">
               <h3 className="text-[#C7C7C7] font-bricolage_Grotesque font-medium break-words">
-                Pack with a lot of features, Tailored for your specific needs.
+                <span className="block">See your sources and</span>
+                <span>filter through all in one place.</span>
               </h3>
               <p className="text-[#73688B] font-medium break-words md:pr-6 pr-0">
                 Clearer thought, faster execution. Explore everything that makes
