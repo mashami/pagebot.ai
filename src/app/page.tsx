@@ -41,17 +41,21 @@ export default function Home() {
         </h3>
         <ButtonStart />
       </div>
-      <div className="flex items-center justify-center text-center mx-auto space-x-1 md:pt-[296px] pt-[190px]">
-        <StarSvg />
-        <h4 className="text-[12px] text-white font-medium">
-          Design to meet your specific needs
-        </h4>
-      </div>
-      <div className="space-y-[71px] pb-[71px] md:px-0 px-6">
-        <h2 className="text-center text-white font-bricolage_Grotesque font-semibold">
-          Your buddy on any page for insight
-        </h2>
-        <YourBuddySection />
+
+      <div className="md:py-[194px] py-[190px]">
+        <div className="flex items-center justify-center text-center mx-auto space-x-1">
+          <StarSvg />
+          <h4 className="text-[12px] text-white font-medium">
+            Design to meet your specific needs
+          </h4>
+        </div>
+
+        <div className="space-y-[71px] md:px-0 px-6">
+          <h2 className="text-center text-white font-bricolage_Grotesque font-semibold">
+            Your buddy on any page for insight
+          </h2>
+          <YourBuddySection />
+        </div>
       </div>
     </div>
   )

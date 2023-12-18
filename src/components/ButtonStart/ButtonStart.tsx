@@ -15,7 +15,7 @@ const ButtonStart = ({
     <Button
       text="Get Started"
       iconPosition="right"
-      className="h-0 py-[19px] text-[14px] hover:bg-[#5C3BA1]/75  font-medium leading-5 text-white rounded-[64px] cursor-pointer"
+      className="h-[50px] w-[141px]  text-[14px] hover:bg-[#5C3BA1]/75  font-medium leading-5 text-white rounded-[64px] cursor-pointer"
       onClick={onClick}
       icon={
         <svg
