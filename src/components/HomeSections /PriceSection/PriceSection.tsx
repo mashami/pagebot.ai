@@ -71,10 +71,10 @@ const PriceSection = () => {
                   Upload your document for context
                 </p>
               </li>
-              <li className="flex space-x-[19px] items-center">
+              <li className="flex space-x-[19px] items-center flex-shrink-0">
                 <CheckedCircle />
-                <p className="md:text-[18px] text-[14px] text-white font-medium leading-5">
-                  Fetch insight from multiple tabs n your browser
+                <p className="md:text-[18px] text-[14px] text-white font-medium leading-5 break-words">
+                  Fetch insight from multiple tabs your browser
                 </p>
               </li>
               <li className="flex space-x-[19px] items-center">

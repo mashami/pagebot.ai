@@ -862,8 +862,7 @@ export const FolderSvg = ({}: MainIconProps) => {
 export const CheckedCircle = () => {
   return (
     <svg
-      width={32}
-      height={33}
+      className="w-8 h-8 flex flex-shrink-0"
       viewBox="0 0 32 33"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
