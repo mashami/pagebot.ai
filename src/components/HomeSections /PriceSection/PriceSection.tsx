@@ -21,7 +21,7 @@ const PriceSection = () => {
     <section className="relative bg-[#131217] ">
       <PriceBackground className="absolute top-0 right-0 left-0" />
 
-      <div className="md:container px-8 md:py-[211px] py-[118px] grid md:grid-cols-2 grid-cols-1 gap-[72px]">
+      <div className="md:container px-8 md:pt-[211px] md:pb-[150px] py-[118px] grid md:grid-cols-2 grid-cols-1 gap-[72px]">
         <div className="space-y-6 select-none">
           <h2 className="text-white text-[48px] font-bricolage_Grotesque font-semibold leading-[48px]">
             {" "}
