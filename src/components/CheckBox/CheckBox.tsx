@@ -4,14 +4,14 @@ import { cn } from "@/lib/utils"
 
 interface CheckBoxProps {
   onClick?: () => void
-  title: "yearly" | "monthly"
+
   text: string
   className?: string
   isSelected: boolean
 }
 const CheckBox = ({
   text,
-  title,
+
   className,
   isSelected,
   onClick
