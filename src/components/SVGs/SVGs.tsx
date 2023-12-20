@@ -1,3 +1,4 @@
+import { cn } from "@/lib/utils"
 import { MainIconProps } from "../Icons/icon.type"
 
 export const BackgroundColor = ({
@@ -681,6 +682,88 @@ export const StarsBackground = () => {
         </filter>
       </defs>
     </svg>
+  )
+}
+
+export const PriceBackground = ({ className }: MainIconProps) => {
+  return (
+    <div>
+      <svg
+        width={430}
+        height={1186}
+        className={cn("md:hidden block", className)}
+        viewBox="0 0 430 1186"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <g opacity="0.2" filter="url(#filter0_f_1422_18352)">
+          <path
+            d="M854.504 729.593L91.0267 41.8303L-141.282 38.7618L-284 743.266L854.504 729.593Z"
+            fill="#AC6CFF"
+          />
+        </g>
+        <defs>
+          <filter
+            id="filter0_f_1422_18352"
+            x={-784}
+            y="-461.238"
+            width="2138.5"
+            height="1704.5"
+            filterUnits="userSpaceOnUse"
+            colorInterpolationFilters="sRGB"
+          >
+            <feFlood floodOpacity={0} result="BackgroundImageFix" />
+            <feBlend
+              mode="normal"
+              in="SourceGraphic"
+              in2="BackgroundImageFix"
+              result="shape"
+            />
+            <feGaussianBlur
+              stdDeviation={250}
+              result="effect1_foregroundBlur_1422_18352"
+            />
+          </filter>
+        </defs>
+      </svg>
+
+      <svg
+        className={cn("w-full h-full md:block hidden", className)}
+        viewBox="0 0 1440 926"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <g opacity="0.2" filter="url(#filter0_f_1463_9802)">
+          <path
+            d="M1284.57 646.87L1033.47 -65.8002L358.222 -68.8685L146.058 646.87L1284.57 646.87Z"
+            fill="#AC6CFF"
+          />
+        </g>
+        <defs>
+          <filter
+            id="filter0_f_1463_9802"
+            x="-353.942"
+            y="-568.869"
+            width="2138.52"
+            height="1715.74"
+            filterUnits="userSpaceOnUse"
+            colorInterpolationFilters="sRGB"
+          >
+            <feFlood floodOpacity={0} result="BackgroundImageFix" />
+            <feBlend
+              mode="normal"
+              in="SourceGraphic"
+              in2="BackgroundImageFix"
+              result="shape"
+            />
+            <feGaussianBlur
+              stdDeviation={250}
+              result="effect1_foregroundBlur_1463_9802"
+            />
+          </filter>
+        </defs>
+      </svg>
+    </div>
   )
 }
 

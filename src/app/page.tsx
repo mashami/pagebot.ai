@@ -3,18 +3,14 @@
 
 import Background from "@/components/Background"
 import { ButtonStart } from "@/components/ButtonStart"
+import { PriceSection } from "@/components/HomeSections /PriceSection"
+import { YourBuddySection } from "@/components/HomeSections /YourBuddySection"
 import { StarSvg } from "@/components/Icons/Icons"
 import { BotSvg } from "@/components/SVGs/SVGs"
-import { YourBuddySection } from "@/components/YourBuddySection"
 
 export default function Home() {
   return (
-    <div
-      className="relative w-full h-screen"
-      // style={{
-      //   background: "url(/Vector.png)"
-      // }}
-    >
+    <div className="relative w-full h-screen">
       <div className=" absolute md:-top-12 top-12 -z-10 ">
         <Background />
       </div>
@@ -42,7 +38,7 @@ export default function Home() {
         <ButtonStart />
       </div>
 
-      <div className="md:py-[194px] py-[190px]">
+      <div className="md:pt-[194px] md:pb-[120px] pt-[60px] pb-[120px]">
         <div className="flex items-center justify-center text-center mx-auto space-x-1">
           <StarSvg />
           <h4 className="text-[12px] text-white font-medium">
@@ -57,6 +53,8 @@ export default function Home() {
           <YourBuddySection />
         </div>
       </div>
+
+      <PriceSection />
     </div>
   )
 }
