@@ -6,8 +6,8 @@ import HeadAbout from "./HeadAbout"
 const AboutSection = () => {
   return (
     <div>
-      <div className="text-center w-[780.7px] mx-auto space-y-8">
-        <h3 className="text-[48px] text-white font-semibold font-bricolage_Grotesque leading-[50px]">
+      <div className="text-center md:w-[780.7px] w-full mx-auto space-y-8 md:px-0 px-8">
+        <h3 className="md:text-[48px] text-[30px] text-white font-semibold font-bricolage_Grotesque leading-[50px]">
           Suitable for professionals, perfect for everyone.
         </h3>
         <p className="text-[20px] text-[#8B78BA] leading-[30px]">
@@ -15,7 +15,7 @@ const AboutSection = () => {
           insights. This hub is a streamlined haven, armed with diverse tools
           and databases, facilitating efficient exploration and discovery.
         </p>
-        <div className="grid grid-cols-3">
+        <div className="grid md:grid-cols-3 grid-cols-1 md:pr-0 pr-24 gap-6">
           <div className="p-6 space-y-6">
             <div className="w-fit">
               <HeadAbout

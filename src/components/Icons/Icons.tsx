@@ -1,5 +1,9 @@
 import { MainIconProps } from "./icon.type"
-export const Logo = ({ width = 25, height = 27, onClick }: MainIconProps) => {
+export const LogoSvg = ({
+  width = 25,
+  height = 34,
+  onClick
+}: MainIconProps) => {
   return (
     <svg
       width={width}
