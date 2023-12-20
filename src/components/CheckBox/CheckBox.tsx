@@ -4,11 +4,18 @@ import { cn } from "@/lib/utils"
 
 interface CheckBoxProps {
   onClick?: () => void
+  title: "yearly" | "monthly"
   text: string
   className?: string
   isSelected: boolean
 }
-const CheckBox = ({ text, className, isSelected, onClick }: CheckBoxProps) => {
+const CheckBox = ({
+  text,
+  title,
+  className,
+  isSelected,
+  onClick
+}: CheckBoxProps) => {
   // console.log("hello")
   // console.log(isSelected)
 
@@ -16,7 +23,7 @@ const CheckBox = ({ text, className, isSelected, onClick }: CheckBoxProps) => {
     <div className="flex space-x-3 items-center">
       <div
         className={cn(
-          `w-[10px] h-[10px] ring-[2px] ring-offset-[3px] ring-[#616161] bg-[#616161] rounded-full cursor-pointer`,
+          `w-[10px] h-[10px] ring-[1.5px] ring-offset-[3px] ring-[#616161] bg-[#616161] rounded-full cursor-pointer`,
           isSelected && "ring-[#9747FF] bg-[#9747FF]",
           className
         )}

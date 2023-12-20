@@ -8,13 +8,13 @@ import { useState } from "react"
 
 const PriceSection = () => {
   const [price, setPrice] = useState<number>(15)
-  const [isSelected, setIsSected] = useState<boolean>(false)
+  const [isSelected, setIsSected] = useState<"monthly" | "yearly">("yearly")
 
-  const HandleSelection = () => {
+  const handleSelection = (title: "monthly" | "yearly") => {
     console.log(isSelected)
     console.log("Hello")
 
-    setIsSected(true)
+    setIsSected(title)
   }
 
   return (
@@ -42,14 +42,16 @@ const PriceSection = () => {
           <div className="space-y-[56px]">
             <div className="mx-auto flex items-center justify-center space-x-6">
               <CheckBox
+                title="yearly"
                 text="Yearly billing"
-                onClick={HandleSelection}
-                isSelected={true}
+                onClick={() => handleSelection("yearly")}
+                isSelected={isSelected === "yearly" ? true : false}
               />
               <CheckBox
+                title="monthly"
                 text="Monthly billing"
-                onClick={HandleSelection}
-                isSelected={isSelected}
+                onClick={() => handleSelection("monthly")}
+                isSelected={isSelected === "monthly" ? true : false}
               />
             </div>
             <span className="flex space-x-2 items-start justify-center">
