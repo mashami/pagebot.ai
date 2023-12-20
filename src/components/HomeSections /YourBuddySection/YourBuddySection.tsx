@@ -7,7 +7,7 @@ import {
   DocSvg,
   FolderSvg,
   InsightSvg,
-  Logo,
+  LogoSvg,
   PluginSvg,
   StarSvg,
   ToneSvg,
@@ -152,7 +152,7 @@ const YourBuddySection = () => {
               </div>
               <div className="px-5 py-[10px] bg-[#211833] space-y-1">
                 <span className="flex items-center space-x-[22px]">
-                  <Logo />
+                  <LogoSvg />
                   <p className="text-[#8D9AAE] text-[13px] font-medium uppercase">
                     Pagebot
                   </p>
