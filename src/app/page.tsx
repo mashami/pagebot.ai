@@ -3,6 +3,7 @@
 
 import Background from "@/components/Background"
 import { ButtonStart } from "@/components/ButtonStart"
+import { AboutSection } from "@/components/HomeSections /AboutSection"
 import { PriceSection } from "@/components/HomeSections /PriceSection"
 import { YourBuddySection } from "@/components/HomeSections /YourBuddySection"
 import { StarSvg } from "@/components/Icons/Icons"
@@ -55,6 +56,9 @@ export default function Home() {
       </div>
 
       <PriceSection />
+      <div className="md:py-[135px] py-[60px]">
+        <AboutSection />
+      </div>
     </div>
   )
 }
