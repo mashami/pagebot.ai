@@ -27,7 +27,7 @@ const CheckBox = ({
           isSelected && "ring-[#9747FF] bg-[#9747FF]",
           className
         )}
-        onClick={() => onClick}
+        onClick={onClick}
       ></div>
       <p className="text-[14px] text-white leading-5">{text}</p>
     </div>
