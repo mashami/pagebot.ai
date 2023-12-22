@@ -5,7 +5,7 @@ import HeadAbout from "./HeadAbout"
 
 const AboutSection = () => {
   return (
-    <div className="text-center md:w-[780.7px] w-full mx-auto space-y-8 md:px-0 px-8">
+    <section className="text-center md:w-[780.7px] w-full mx-auto space-y-8 md:px-0 px-8">
       <h3 className="md:text-[48px] text-[30px] text-white font-semibold font-bricolage_Grotesque leading-[50px]">
         Suitable for professionals, perfect for everyone.
       </h3>
@@ -67,7 +67,7 @@ const AboutSection = () => {
           </p>
         </div>
       </div>
-    </div>
+    </section>
   )
 }
 

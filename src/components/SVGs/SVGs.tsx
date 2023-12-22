@@ -685,7 +685,7 @@ export const StarsBackground = () => {
   )
 }
 
-export const PriceBackground = ({ className }: MainIconProps) => {
+export const PriceSectionBackground = ({ className }: MainIconProps) => {
   return (
     <div>
       <svg
