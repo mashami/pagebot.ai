@@ -28,7 +28,7 @@ const PriceSection = () => {
 
       <div className="md:container px-8 md:pt-[211px] md:pb-[150px] py-[118px] grid md:grid-cols-2 grid-cols-1 gap-[72px] z-20 relative">
         <div className="space-y-6 select-none">
-          <h2 className="text-white text-[48px] font-bricolage_Grotesque font-semibold leading-[48px]">
+          <h2 className="text-white md:text-[48px] text-[36px] font-bricolage_Grotesque font-semibold leading-[48px]">
             Smart features at the right Price.
           </h2>
           <p className="text-[20px] text-white font-normal leading-9">
